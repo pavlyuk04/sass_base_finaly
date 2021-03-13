@@ -1,0 +1,186 @@
+.reviews {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(/img/bg6.png);
+    background-size: cover;
+    height:auto;
+    &__body{
+        padding: 100px 0 200px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        &__title {
+            text-align: center;
+            font-family: $aleo;
+            font-size: 36px;
+            margin-bottom: 100px;
+            font-weight: 400;
+        }
+        &__content{
+            display: flex;
+            align-items: center;
+            max-width: 1110px;
+            width: 100%;
+            height: 290px;
+            background-color: #333333;
+            .content__sam{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-family: $jose;
+
+                &__title{
+                    padding:50px 60px 0 60px;
+                    font-size: 20px;
+                    font-weight: 300;
+
+                }
+                &__text{
+                    padding: 0 60px 50px 60px;
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-weight: 300;
+                }
+                &__text::before{
+                   content: '\275D';
+                   font-family: $jose;
+                   font-size: 36px;
+                   width: 15px;
+                   color: #5474FD;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .reviews {
+        max-width: 1920px;
+        width: 100%;
+        background-image: url(/img/bg6.png);
+        background-size: cover;
+        height:auto;
+        &__body{
+            padding: 50px 0 80px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: white;
+            &__title {
+                text-align: center;
+                font-family: $aleo;
+                font-size: 36px;
+                margin-bottom: 50px;
+                font-weight: 400;
+            }
+            &__content{
+                display: flex;
+                align-items: center;
+                max-width: 1110px;
+                width: 100%;
+                height: 290px;
+                background-color: #333333;
+                .content__picture{
+                    display: none;
+                }
+                .content__sam{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-family: $jose;
+    
+                    &__title{
+                        padding:50px 60px 0 60px;
+                        font-size: 20px;
+                        font-weight: 300;
+    
+                    }
+                    &__text{
+                        padding: 0 60px 50px 60px;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: 300;
+                    }
+                    &__text::before{
+                       content: '\275D';
+                       font-family: $jose;
+                       font-size: 36px;
+                       width: 15px;
+                       color: #5474FD;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 541px){
+    .reviews {
+        max-width: 1920px;
+        width: 100%;
+        background-image: url(/img/bg6.png);
+        background-size: cover;
+        height:auto;
+        &__body{
+            padding: 50px 0 80px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: white;
+            &__title {
+                text-align: center;
+                font-family: $aleo;
+                font-size: 36px;
+                margin-bottom: 50px;
+                font-weight: 400;
+            }
+            &__content{
+                display: flex;
+                align-items: center;
+                max-width: 1110px;
+                width: 100%;
+                height: 290px;
+                background-color: #333333;
+                .content__picture{
+                    display: none;
+                }
+                .content__sam{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-family: $jose;
+                    margin: 10px;
+    
+                    &__title{
+                        padding:0;
+                        font-size: 20px;
+                        font-weight: 300;
+    
+                    }
+                    &__text{
+                        padding: 0;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: 300;
+                    }
+                    &__text::before{
+                       content: '\275D';
+                       font-family: $jose;
+                       font-size: 36px;
+                       width: 15px;
+                       color: #5474FD;
+                    }
+                }
+            }
+        }
+    }
+}

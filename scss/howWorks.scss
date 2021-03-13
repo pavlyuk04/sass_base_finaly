@@ -1,0 +1,89 @@
+$jose: 'Josefin Sans', sans-serif;
+$aleo: 'Aleo', serif;
+
+.how-works{
+    background-color: #333333;
+    max-width: 1920px;
+    width: 100%;
+    height: 340px;
+    &__body{
+        padding:0 120px;
+        background-image: url(/img/shape.png);
+        background-repeat: no-repeat;
+        background-size: 60% 50%;
+        background-position: center;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        &__item{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: $aleo;
+            font-size: 36px;
+            background-color: #333333;
+        }
+    }
+}
+@media screen and (max-width: 992px){
+    .how-works{
+        background-color: #333333;
+        max-width: 1920px;
+        width: 100%;
+        height: 340px;
+        &__body{
+            padding:0 0;
+            background-image: none;
+         
+            
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .how-works{
+        &__body{
+            background-image: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            
+            &__item{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                font-family: $aleo;
+                font-size: 36px;
+                background-color: #333333;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .how-works{
+        height: 230px;
+        &__body{
+            
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            &__item{
+                
+                font-size: 26px;
+                
+            }
+        }
+    }
+}
